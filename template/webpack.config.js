@@ -4,9 +4,9 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './assets'),
+    path: path.resolve(__dirname, './assets/js/'),
     publicPath: '/assets/',
-    filename: 'build.js'
+    filename: 'vue.js'
   },
   module: {
     rules: [
